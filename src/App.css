@@ -32,7 +32,22 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.counter button {
+  padding: 10px;
+  font-size: 22px;
+  background: #61dafb;
+  border: 4px #037899 solid;
+  border-radius: 8px;
+}
+
+.counter span {
+  margin-left: 19px;
+  color: #61fb7b;
 }
